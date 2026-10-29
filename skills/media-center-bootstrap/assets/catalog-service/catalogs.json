@@ -1,0 +1,1275 @@
+[
+  {
+    "id": "recent-movies",
+    "title": "近期新片",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "primary_release_date.gte": "2026-07-30"
+    }
+  },
+  {
+    "id": "popular-movies",
+    "title": "热门电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28"
+    }
+  },
+  {
+    "id": "popular-series",
+    "title": "热门剧集",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "first_air_date.lte": "2026-10-28"
+    }
+  },
+  {
+    "id": "top-movies",
+    "title": "高分电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "vote_average.desc",
+      "vote_count.gte": "1000",
+      "primary_release_date.lte": "2026-10-28",
+      "vote_average.gte": "8"
+    }
+  },
+  {
+    "id": "genre-28",
+    "title": "动作电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "28"
+    }
+  },
+  {
+    "id": "genre-35",
+    "title": "喜剧电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "35"
+    }
+  },
+  {
+    "id": "genre-878",
+    "title": "科幻电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "878"
+    }
+  },
+  {
+    "id": "genre-53",
+    "title": "惊悚电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "53"
+    }
+  },
+  {
+    "id": "genre-16",
+    "title": "动画电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "16"
+    }
+  },
+  {
+    "id": "genre-18",
+    "title": "剧情电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "18"
+    }
+  },
+  {
+    "id": "genre-10749",
+    "title": "爱情电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "10749"
+    }
+  },
+  {
+    "id": "genre-99",
+    "title": "纪录电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "99"
+    }
+  },
+  {
+    "id": "country-CN",
+    "title": "内地电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "CN"
+    }
+  },
+  {
+    "id": "country-HK",
+    "title": "香港电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "HK"
+    }
+  },
+  {
+    "id": "country-TW",
+    "title": "台湾电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "TW"
+    }
+  },
+  {
+    "id": "country-US",
+    "title": "美国电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "US"
+    }
+  },
+  {
+    "id": "country-GB",
+    "title": "英国电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "GB"
+    }
+  },
+  {
+    "id": "country-JP",
+    "title": "日本电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "JP"
+    }
+  },
+  {
+    "id": "country-KR",
+    "title": "韩国电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "KR"
+    }
+  },
+  {
+    "id": "country-FR",
+    "title": "法国电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "FR"
+    }
+  },
+  {
+    "id": "country-DE",
+    "title": "德国电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "DE"
+    }
+  },
+  {
+    "id": "country-IT",
+    "title": "意大利电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "IT"
+    }
+  },
+  {
+    "id": "country-ES",
+    "title": "西班牙电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "ES"
+    }
+  },
+  {
+    "id": "country-PT",
+    "title": "葡萄牙电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "PT"
+    }
+  },
+  {
+    "id": "country-NL",
+    "title": "荷兰电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "NL"
+    }
+  },
+  {
+    "id": "country-SE",
+    "title": "瑞典电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "SE"
+    }
+  },
+  {
+    "id": "country-NO",
+    "title": "挪威电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "NO"
+    }
+  },
+  {
+    "id": "country-DK",
+    "title": "丹麦电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "DK"
+    }
+  },
+  {
+    "id": "country-PL",
+    "title": "波兰电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "PL"
+    }
+  },
+  {
+    "id": "country-RU",
+    "title": "俄罗斯电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "RU"
+    }
+  },
+  {
+    "id": "country-TR",
+    "title": "土耳其电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "TR"
+    }
+  },
+  {
+    "id": "country-IN",
+    "title": "印度电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "IN"
+    }
+  },
+  {
+    "id": "country-TH",
+    "title": "泰国电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "TH"
+    }
+  },
+  {
+    "id": "country-BR",
+    "title": "巴西电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "BR"
+    }
+  },
+  {
+    "id": "country-MX",
+    "title": "墨西哥电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "MX"
+    }
+  },
+  {
+    "id": "country-AU",
+    "title": "澳大利亚电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "AU"
+    }
+  },
+  {
+    "id": "country-CA",
+    "title": "加拿大电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "CA"
+    }
+  },
+  {
+    "id": "country-IE",
+    "title": "爱尔兰电影",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "IE"
+    }
+  },
+  {
+    "id": "studio-33",
+    "title": "环球影业",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_companies": "33"
+    }
+  },
+  {
+    "id": "studio-4",
+    "title": "派拉蒙",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_companies": "4"
+    }
+  },
+  {
+    "id": "studio-174",
+    "title": "华纳兄弟",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_companies": "174"
+    }
+  },
+  {
+    "id": "studio-5",
+    "title": "哥伦比亚影业",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_companies": "5"
+    }
+  },
+  {
+    "id": "studio-25",
+    "title": "二十世纪影业",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_companies": "25"
+    }
+  },
+  {
+    "id": "studio-1632",
+    "title": "狮门影业",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_companies": "1632"
+    }
+  },
+  {
+    "id": "decade-2020",
+    "title": "2020年代",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "primary_release_date.gte": "2020-01-01"
+    }
+  },
+  {
+    "id": "decade-2010",
+    "title": "2010年代",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2019-12-31",
+      "primary_release_date.gte": "2010-01-01"
+    }
+  },
+  {
+    "id": "decade-2000",
+    "title": "2000年代",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2009-12-31",
+      "primary_release_date.gte": "2000-01-01"
+    }
+  },
+  {
+    "id": "decade-1990",
+    "title": "1990年代",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "1999-12-31",
+      "primary_release_date.gte": "1990-01-01"
+    }
+  },
+  {
+    "id": "decade-1980",
+    "title": "1980年代",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "1989-12-31",
+      "primary_release_date.gte": "1980-01-01"
+    }
+  },
+  {
+    "id": "platform-nfx-movie",
+    "title": "Netflix · 电影",
+    "type": "movie",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/movie/nfx.json"
+  },
+  {
+    "id": "platform-nfx-series",
+    "title": "Netflix · 剧集",
+    "type": "series",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/series/nfx.json"
+  },
+  {
+    "id": "platform-dnp-movie",
+    "title": "Disney+ · 电影",
+    "type": "movie",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/movie/dnp.json"
+  },
+  {
+    "id": "platform-dnp-series",
+    "title": "Disney+ · 剧集",
+    "type": "series",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/series/dnp.json"
+  },
+  {
+    "id": "platform-amp-movie",
+    "title": "Prime Video · 电影",
+    "type": "movie",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/movie/amp.json"
+  },
+  {
+    "id": "platform-amp-series",
+    "title": "Prime Video · 剧集",
+    "type": "series",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/series/amp.json"
+  },
+  {
+    "id": "platform-atp-movie",
+    "title": "Apple TV+ · 电影",
+    "type": "movie",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/movie/atp.json"
+  },
+  {
+    "id": "platform-atp-series",
+    "title": "Apple TV+ · 剧集",
+    "type": "series",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/series/atp.json"
+  },
+  {
+    "id": "platform-hbm-movie",
+    "title": "HBO Max · 电影",
+    "type": "movie",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/movie/hbm.json"
+  },
+  {
+    "id": "platform-hbm-series",
+    "title": "HBO Max · 剧集",
+    "type": "series",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/series/hbm.json"
+  },
+  {
+    "id": "recent-movies-p2",
+    "title": "近期新片 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "primary_release_date.gte": "2026-07-30"
+    },
+    "page": 2
+  },
+  {
+    "id": "popular-movies-p2",
+    "title": "热门电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28"
+    },
+    "page": 2
+  },
+  {
+    "id": "popular-series-p2",
+    "title": "热门剧集 · 更多",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "first_air_date.lte": "2026-10-28"
+    },
+    "page": 2
+  },
+  {
+    "id": "top-movies-p2",
+    "title": "高分电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "vote_average.desc",
+      "vote_count.gte": "1000",
+      "primary_release_date.lte": "2026-10-28",
+      "vote_average.gte": "8"
+    },
+    "page": 2
+  },
+  {
+    "id": "genre-28-p2",
+    "title": "动作电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "28"
+    },
+    "page": 2
+  },
+  {
+    "id": "genre-35-p2",
+    "title": "喜剧电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "35"
+    },
+    "page": 2
+  },
+  {
+    "id": "genre-878-p2",
+    "title": "科幻电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "878"
+    },
+    "page": 2
+  },
+  {
+    "id": "genre-53-p2",
+    "title": "惊悚电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "53"
+    },
+    "page": 2
+  },
+  {
+    "id": "genre-16-p2",
+    "title": "动画电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "16"
+    },
+    "page": 2
+  },
+  {
+    "id": "genre-18-p2",
+    "title": "剧情电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "18"
+    },
+    "page": 2
+  },
+  {
+    "id": "genre-10749-p2",
+    "title": "爱情电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "10749"
+    },
+    "page": 2
+  },
+  {
+    "id": "genre-99-p2",
+    "title": "纪录电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_genres": "99"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-CN-p2",
+    "title": "内地电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "CN"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-HK-p2",
+    "title": "香港电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "HK"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-TW-p2",
+    "title": "台湾电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "TW"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-US-p2",
+    "title": "美国电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "US"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-GB-p2",
+    "title": "英国电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "GB"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-JP-p2",
+    "title": "日本电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "JP"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-KR-p2",
+    "title": "韩国电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "KR"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-FR-p2",
+    "title": "法国电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "FR"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-DE-p2",
+    "title": "德国电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "DE"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-IT-p2",
+    "title": "意大利电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "IT"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-ES-p2",
+    "title": "西班牙电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "ES"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-PT-p2",
+    "title": "葡萄牙电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "PT"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-NL-p2",
+    "title": "荷兰电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "NL"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-SE-p2",
+    "title": "瑞典电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "SE"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-NO-p2",
+    "title": "挪威电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "NO"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-DK-p2",
+    "title": "丹麦电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "DK"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-PL-p2",
+    "title": "波兰电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "PL"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-RU-p2",
+    "title": "俄罗斯电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "RU"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-TR-p2",
+    "title": "土耳其电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "TR"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-IN-p2",
+    "title": "印度电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "IN"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-TH-p2",
+    "title": "泰国电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "TH"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-BR-p2",
+    "title": "巴西电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "BR"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-MX-p2",
+    "title": "墨西哥电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "MX"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-AU-p2",
+    "title": "澳大利亚电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "AU"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-CA-p2",
+    "title": "加拿大电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "CA"
+    },
+    "page": 2
+  },
+  {
+    "id": "country-IE-p2",
+    "title": "爱尔兰电影 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "10",
+      "primary_release_date.lte": "2026-10-28",
+      "with_origin_country": "IE"
+    },
+    "page": 2
+  },
+  {
+    "id": "studio-33-p2",
+    "title": "环球影业 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_companies": "33"
+    },
+    "page": 2
+  },
+  {
+    "id": "studio-4-p2",
+    "title": "派拉蒙 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_companies": "4"
+    },
+    "page": 2
+  },
+  {
+    "id": "studio-174-p2",
+    "title": "华纳兄弟 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_companies": "174"
+    },
+    "page": 2
+  },
+  {
+    "id": "studio-5-p2",
+    "title": "哥伦比亚影业 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_companies": "5"
+    },
+    "page": 2
+  },
+  {
+    "id": "studio-25-p2",
+    "title": "二十世纪影业 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_companies": "25"
+    },
+    "page": 2
+  },
+  {
+    "id": "studio-1632-p2",
+    "title": "狮门影业 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "with_companies": "1632"
+    },
+    "page": 2
+  },
+  {
+    "id": "decade-2020-p2",
+    "title": "2020年代 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2026-10-28",
+      "primary_release_date.gte": "2020-01-01"
+    },
+    "page": 2
+  },
+  {
+    "id": "decade-2010-p2",
+    "title": "2010年代 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2019-12-31",
+      "primary_release_date.gte": "2010-01-01"
+    },
+    "page": 2
+  },
+  {
+    "id": "decade-2000-p2",
+    "title": "2000年代 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "2009-12-31",
+      "primary_release_date.gte": "2000-01-01"
+    },
+    "page": 2
+  },
+  {
+    "id": "decade-1990-p2",
+    "title": "1990年代 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "1999-12-31",
+      "primary_release_date.gte": "1990-01-01"
+    },
+    "page": 2
+  },
+  {
+    "id": "decade-1980-p2",
+    "title": "1980年代 · 更多",
+    "type": "movie",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "50",
+      "primary_release_date.lte": "1989-12-31",
+      "primary_release_date.gte": "1980-01-01"
+    },
+    "page": 2
+  },
+  {
+    "id": "platform-nfx-movie-p2",
+    "title": "Netflix · 电影 · 更多",
+    "type": "movie",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/movie/nfx.json",
+    "skip_offset": 20
+  },
+  {
+    "id": "platform-nfx-series-p2",
+    "title": "Netflix · 剧集 · 更多",
+    "type": "series",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/series/nfx.json",
+    "skip_offset": 20
+  },
+  {
+    "id": "platform-dnp-movie-p2",
+    "title": "Disney+ · 电影 · 更多",
+    "type": "movie",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/movie/dnp.json",
+    "skip_offset": 20
+  },
+  {
+    "id": "platform-dnp-series-p2",
+    "title": "Disney+ · 剧集 · 更多",
+    "type": "series",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/series/dnp.json",
+    "skip_offset": 20
+  },
+  {
+    "id": "platform-amp-movie-p2",
+    "title": "Prime Video · 电影 · 更多",
+    "type": "movie",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/movie/amp.json",
+    "skip_offset": 20
+  },
+  {
+    "id": "platform-amp-series-p2",
+    "title": "Prime Video · 剧集 · 更多",
+    "type": "series",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/series/amp.json",
+    "skip_offset": 20
+  },
+  {
+    "id": "platform-atp-movie-p2",
+    "title": "Apple TV+ · 电影 · 更多",
+    "type": "movie",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/movie/atp.json",
+    "skip_offset": 20
+  },
+  {
+    "id": "platform-atp-series-p2",
+    "title": "Apple TV+ · 剧集 · 更多",
+    "type": "series",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/series/atp.json",
+    "skip_offset": 20
+  },
+  {
+    "id": "platform-hbm-movie-p2",
+    "title": "HBO Max · 电影 · 更多",
+    "type": "movie",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/movie/hbm.json",
+    "skip_offset": 20
+  },
+  {
+    "id": "platform-hbm-series-p2",
+    "title": "HBO Max · 剧集 · 更多",
+    "type": "series",
+    "adapter": "localized-platform",
+    "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/series/hbm.json",
+    "skip_offset": 20
+  }
+]

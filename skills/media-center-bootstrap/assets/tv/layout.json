@@ -1,0 +1,22 @@
+{
+  "order": [
+    "collection:zh-featured",
+    "collection:zh-platforms",
+    "collection:zh-genres",
+    "collection:zh-regions",
+    "collection:zh-studios",
+    "collection:zh-decades",
+    "com.nuvio.tmdb.catalogs_movie_trending-movies",
+    "com.nuvio.tmdb.catalogs_series_trending-series"
+  ],
+  "enabled": [
+    "collection:zh-featured",
+    "collection:zh-platforms",
+    "collection:zh-genres",
+    "collection:zh-regions",
+    "collection:zh-studios",
+    "collection:zh-decades",
+    "com.nuvio.tmdb.catalogs_movie_trending-movies",
+    "com.nuvio.tmdb.catalogs_series_trending-series"
+  ]
+}

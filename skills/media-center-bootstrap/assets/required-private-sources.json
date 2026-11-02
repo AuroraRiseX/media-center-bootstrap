@@ -1,122 +1,92 @@
 [
   {
-    "placeholder": "${PRIVATE_SOURCE_1}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_1}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_2}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_2}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_3}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_3}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_4}",
-    "host": "play-lh.googleusercontent.com"
+    "placeholder": "${PRIVATE_SOURCE_4}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_5}",
-    "host": "rectvapp.com.tr"
+    "placeholder": "${PRIVATE_SOURCE_5}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_6}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_6}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_7}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_7}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_8}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_8}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_9}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_9}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_10}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_10}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_11}",
-    "host": "image.similarpng.com"
+    "placeholder": "${PRIVATE_SOURCE_11}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_12}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_12}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_13}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_13}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_14}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_14}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_15}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_15}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_16}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_16}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_17}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_17}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_18}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_18}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_19}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_19}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_20}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_20}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_21}",
-    "host": "lh3.googleusercontent.com"
+    "placeholder": "${PRIVATE_SOURCE_21}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_22}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_22}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_23}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_23}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_24}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_24}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_25}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_25}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_26}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_26}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_27}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_27}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_28}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_28}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_29}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_29}"
   },
   {
-    "placeholder": "${PRIVATE_SOURCE_30}",
-    "host": "www.google.com"
+    "placeholder": "${PRIVATE_SOURCE_30}"
   }
 ]

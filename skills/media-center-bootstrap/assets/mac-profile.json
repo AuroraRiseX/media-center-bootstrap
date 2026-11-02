@@ -17,7 +17,7 @@
     },
     "addon_enabled_states_1": {
       "json": {
-        "http://192.168.3.115:17863/manifest.json": true,
+        "${CATALOG_BASE}/manifest.json": true,
         "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/manifest.json": true,
         "https://opensubtitles-v3.strem.io/manifest.json": true,
         "https://catalog.nuvio.tv/%7B%22language%22%3A%22zh-CN%22%2C%22region%22%3A%22US%22%7D/manifest.json": true,

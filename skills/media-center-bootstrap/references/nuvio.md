@@ -1,3 +1,7 @@
+# 历史可选：Mac 托管模式
+
+当前电视本机方案见 android-tv.md 和仓库 README，以下仅适用于主动选择电脑托管的情况。
+
 # Nuvio 配置与目录服务
 
 官方电脑版：https://github.com/NuvioMedia/NuvioDesktop/releases

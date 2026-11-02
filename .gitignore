@@ -12,3 +12,7 @@ backups/
 *.apk
 *.dmg
 *.xapk
+build/
+*.keystore
+*.jks
+!dist/nuvio-tv-catalog.apk

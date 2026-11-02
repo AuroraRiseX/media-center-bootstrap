@@ -1,0 +1,15 @@
+{
+  "catalogs": 136,
+  "catalog_passed": 136,
+  "referenced_artwork_paths": 48,
+  "artwork_passed": 48,
+  "local_packaged_images": 19,
+  "collections": 7,
+  "addon_base": "http://127.0.0.1:17863",
+  "mac_service_stopped": true,
+  "reboot_auto_start_verified": true,
+  "cloud_settings_persisted_after_reboot": true,
+  "note": "TV VPN still required for external services; playback not tested.",
+  "standby_recovery_verified": true,
+  "standby_recovery_evidence": "System stopped pid11961; lifecycle listener rebound and started pid12154, then health HTTP200 and catalogs returned20."
+}

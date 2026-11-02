@@ -1271,5 +1271,221 @@
     "adapter": "localized-platform",
     "upstream_url": "https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/catalog/series/hbm.json",
     "skip_offset": 20
+  },
+  {
+    "id": "tv-genre-28",
+    "title": "动作电视",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_genres": "10759"
+    },
+    "page": 1
+  },
+  {
+    "id": "tv-genre-28-p2",
+    "title": "动作电视 · 更多",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_genres": "10759"
+    },
+    "page": 2
+  },
+  {
+    "id": "tv-genre-35",
+    "title": "喜剧电视",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_genres": "35"
+    },
+    "page": 1
+  },
+  {
+    "id": "tv-genre-35-p2",
+    "title": "喜剧电视 · 更多",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_genres": "35"
+    },
+    "page": 2
+  },
+  {
+    "id": "tv-genre-878",
+    "title": "科幻电视",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_genres": "10765"
+    },
+    "page": 1
+  },
+  {
+    "id": "tv-genre-878-p2",
+    "title": "科幻电视 · 更多",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_genres": "10765"
+    },
+    "page": 2
+  },
+  {
+    "id": "tv-genre-53",
+    "title": "惊悚电视",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_keywords": "316362"
+    },
+    "page": 1
+  },
+  {
+    "id": "tv-genre-53-p2",
+    "title": "惊悚电视 · 更多",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_keywords": "316362"
+    },
+    "page": 2
+  },
+  {
+    "id": "tv-genre-27",
+    "title": "恐怖电视",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_keywords": "315058"
+    },
+    "page": 1
+  },
+  {
+    "id": "tv-genre-27-p2",
+    "title": "恐怖电视 · 更多",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_keywords": "315058"
+    },
+    "page": 2
+  },
+  {
+    "id": "tv-genre-16",
+    "title": "动画电视",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_genres": "16"
+    },
+    "page": 1
+  },
+  {
+    "id": "tv-genre-16-p2",
+    "title": "动画电视 · 更多",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_genres": "16"
+    },
+    "page": 2
+  },
+  {
+    "id": "tv-genre-18",
+    "title": "剧情电视",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_genres": "18"
+    },
+    "page": 1
+  },
+  {
+    "id": "tv-genre-18-p2",
+    "title": "剧情电视 · 更多",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_genres": "18"
+    },
+    "page": 2
+  },
+  {
+    "id": "tv-genre-10749",
+    "title": "爱情电视",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_keywords": "9840"
+    },
+    "page": 1
+  },
+  {
+    "id": "tv-genre-10749-p2",
+    "title": "爱情电视 · 更多",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_keywords": "9840"
+    },
+    "page": 2
+  },
+  {
+    "id": "tv-genre-99",
+    "title": "纪录电视",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_genres": "99"
+    },
+    "page": 1
+  },
+  {
+    "id": "tv-genre-99-p2",
+    "title": "纪录电视 · 更多",
+    "type": "series",
+    "query": {
+      "sort_by": "popularity.desc",
+      "vote_count.gte": "30",
+      "first_air_date.lte": "2026-10-31",
+      "with_genres": "99"
+    },
+    "page": 2
   }
 ]
